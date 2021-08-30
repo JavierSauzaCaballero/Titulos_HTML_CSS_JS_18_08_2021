@@ -1,0 +1,42 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&family=Advent+Pro:wght@100&family=Rampart+One&family=Allison&family=Titillium+Web:ital,wght@1,700&family=ZCOOL+KuaiLe&display=swap');
+
+
+h1{ background-color: hsla(130, 46%, 38%, 0.878);
+    color: rgb(248, 244, 244);
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 5px;
+}
+h2{ background-color: #e7c70ee0;
+    color: #087919;
+    font-family: 'Allison', cursive;
+    border-radius: 8px;
+}
+h3{ background-color: rgba(105, 107, 233, 0.878);
+    color: rgba(241, 9, 28, 0.699);
+    font-family:'ZCOOL KuaiLe', cursive;
+    border-radius: 10px;
+}
+h4{ background-color: hsla(303, 83%, 47%, 0.151);
+    color: rgb(2, 1, 10);
+    font-family: 'Rampart One', cursive;
+    border-radius: 12px;
+}
+h5{ background-color: hsla(357, 89%, 48%, 0.932);
+    color: rgb(235, 234, 241);
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 14px;
+}
+h6{ background-color: rgba(1, 228, 244, 0.878);
+    color: hsl(246, 93%, 49%);
+    font-family: 'Stint Ultra Expanded', cursive;
+    border-radius: 16px;
+}
+h1::selection, h2::selection,
+h3::selection, h4::selection,
+h5::selection, h6::selection{
+background: hsl(120, 24%, 83%);
+}
+
+
